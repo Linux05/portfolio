@@ -1,0 +1,76 @@
+@media screen and (max-width:980px) {
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display:block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252525;
+        width: 180px;
+    }
+    nav.responsive ul {
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: solid 1px #fff;
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width:700px) {
+    .about-me .row{
+        display: block;
+    }
+    .about-me .row .col{
+        width: fit-content;
+    }
+    .skills .row{
+        display: block;
+    }
+    .skills .row .col{
+        width: 100%;
+    }
+    .skills .row .col .barra-skill{
+        width: 100%;
+    }
+    .resume .row{
+        display: block;
+    }
+    .resume .row .col {
+        width: 90%;
+    }
+    .resume .row .main-right{
+        margin-left: 20px;
+    }
+
+    .portfolio h2{
+        font-size: 30px;
+        
+    }
+    .portfolio .gallery {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 5px;
+        
+    }
+    .portfolio .galley .project{
+        max-width: 100%;
+        
+    }
+    .portfolio .galley .project img{
+        width: 100%;
+        
+
+    }
+
+    .contact .row{
+        display: block;
+    }
+    .contact .row .col {
+        width: 100%;
+    }
+}   
